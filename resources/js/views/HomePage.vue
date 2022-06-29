@@ -17,6 +17,7 @@
                     <router-link
                         class="btn btn-sm btn-panel nav-link"
                         :to="{name: 'PersonalProfilePage'}"
+                        v-if="userData"
                     >
                         <span class="icon text-primary pe-2">
                             <i class="fa-solid fa-user"></i>
