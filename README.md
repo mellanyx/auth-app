@@ -21,6 +21,10 @@ php artisan key:generate
 ```
 
 ```bash
+php artisan migrate
+```
+
+```bash
 npm install
 ```
 
